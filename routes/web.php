@@ -34,8 +34,7 @@ Route::group(['prefix' => '{locale?}', 'where' => ['locale' => '(?!admin)*[a-z]{
 
         Route::get('/o-inwestycji', 'InvestmentController@index')->name('investment');
 
-        Route::post('/kontakt', 'ContactController@contact')->name('homepage.contact');
-        Route::post('/kontakt/{property}', 'ContactController@property')->name('contact.property');
-
+        Route::get('/kontakt', 'ContactController@index')->name('contact');
+        Route::post('/kontakt', 'ContactController@contact')->name('contact.form');
     });
 });

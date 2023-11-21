@@ -546,12 +546,22 @@ header nav ul li ul li a:hover {
 header nav ul li:hover ul {
   display: flex;
 }
+header.fixed {
+  background: #990561;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(50, 50, 50, 0.14);
+  -moz-box-shadow: 0 2px 2px 0 rgba(50, 50, 50, 0.14);
+  box-shadow: 0 2px 2px 0 rgba(50, 50, 50, 0.14);
+}
+header.fixed nav {
+  border: 0;
+}
 .header-holder {
   height: 190px;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+  z-index: 40;
 }
 @keyframes stickymenu {
   from {
@@ -1023,9 +1033,12 @@ footer a {
   line-height: 36px;
 }
 .contact-text a {
-  color: white;
+  color: var(--main-color-pink);
   font-size: 28px;
   line-height: 38px;
+}
+.bg-dark-blue .contact-text a {
+  color: white;
 }
 #contact-form label {
   font-size: 20px;
@@ -1042,6 +1055,14 @@ footer a {
 }
 #contact-form textarea {
   height: 120px;
+}
+.bg-white #contact-form label {
+  color: #1c2634;
+}
+.bg-white #contact-form .form-control {
+  background: #f9f9f9;
+  border-bottom: 1px solid #c8c8c8;
+  color: #000;
 }
 .col-input-important {
   display: none;

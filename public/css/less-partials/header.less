@@ -106,6 +106,15 @@ header {
             }
         }
     }
+    &.fixed {
+        background: #990561;
+        -webkit-box-shadow: 0 2px 2px 0 rgba(50, 50, 50, 0.14);
+        -moz-box-shadow:0 2px 2px 0 rgba(50, 50, 50, 0.14);
+        box-shadow:0 2px 2px 0 rgba(50, 50, 50, 0.14);
+        nav {
+            border:0
+        }
+    }
 }
 
 .header-holder {
@@ -114,6 +123,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 40;
 }
 
 @media (max-width: 1440.98px) {

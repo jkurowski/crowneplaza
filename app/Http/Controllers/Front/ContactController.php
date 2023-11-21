@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\ContactFormRequest;
 
 use App\Mail\ChatSend;
+use App\Models\Page;
 use App\Repositories\Client\ClientRepository;
 use Illuminate\Support\Facades\Mail;
 
@@ -26,30 +27,9 @@ class ContactController extends Controller
         $this->repository = $repository;
     }
 
-    function property(ContactFormRequest $request, $id)
-    {
-
-        $property = Property::find($id);
-        $client = $this->repository->createClient($request, $property);
-        $property->notify(new PropertyNotification($request));
-
-        Mail::to(settings()->get("page_email"))->send(new ChatSend($request, $client, $property));
-
-        if( count(Mail::failures()) == 0 ) {
-            $cookie_name = 'dp_';
-            foreach ($_COOKIE as $name => $value) {
-                if (stripos($name, $cookie_name) === 0) {
-                    Cookie::queue(
-                        Cookie::forget($name)
-                    );
-                }
-            }
-        }
-
-        return redirect()->back()->with(
-            'success',
-            'Twoja wiadomość została wysłana. W najbliższym czasie skontaktujemy się z Państwem celem omówienia szczegółów!'
-        );
+    function index(){
+        $page = Page::find(1);
+        return view('front.contact.index', compact('page'));
     }
 
     function contact(ContactFormRequest $request, Recipient $recipient)

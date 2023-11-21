@@ -1,10 +1,8 @@
 <div class="header-holder">
-    <header>
-        <div id="header">
-            <a id="logo" href="/">
-                <img src="{{ asset('images/logo.png') }}" alt="">
-            </a>
-        </div>
+    <header id="header">
+        <a id="logo" href="/">
+            <img src="{{ asset('images/logo.png') }}" alt="">
+        </a>
         <div class="container-fluid p-0">
             <div class="row no-gutters">
                 <div class="col-12">
@@ -31,7 +29,7 @@
                                 </ul>
                             </li>
                             <li><a href="{{ route('location') }}">LOKALIZACJA</a></li>
-                            <li><a href="">KONTAKT</a></li>
+                            <li><a href="{{ route('contact') }}">KONTAKT</a></li>
                         </ul>
                     </nav>
                 </div>
