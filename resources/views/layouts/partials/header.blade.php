@@ -7,10 +7,10 @@
             <div class="row no-gutters">
                 <div class="col-12">
                     <div class="top">
-                        <p>al. Jana Pawła II 29, Warszawa</p>
-                        <p><a href="tel:+48695051396">695 051 396</a></p>
-                        <p><a href="mailto:sprzedazbalticwave@antczak.pl">sprzedazbalticwave@antczak.pl</a></p>
-                        <a href="" class="bttn">NAPISZ DO NAS</a>
+                        <p><img src="{{ asset('images/top-location-icon.png') }}" alt="Ikonka lokalizacji"> al. Jana Pawła II 29, Warszawa</p>
+                        <p><img src="{{ asset('images/top-phone-icon.png') }}" alt="Ikonka numeru telefonu"> <a href="tel:+48695051396">695 051 396</a></p>
+                        <p><img src="{{ asset('images/top-mail-icon.png') }}" alt="Ikonka kontaktu e-mail"> <a href="mailto:sprzedazbalticwave@antczak.pl"> sprzedazbalticwave@antczak.pl</a></p>
+                        <a href="{{ route('contact') }}" class="bttn">NAPISZ DO NAS</a>
                     </div>
                 </div>
                 <div class="col-12">

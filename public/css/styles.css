@@ -474,6 +474,9 @@ header .top p {
   font-size: 20px;
   font-weight: 800;
   margin-right: 90px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 header .top p a {
   color: #2f3641;
@@ -481,6 +484,9 @@ header .top p a {
 }
 header .top p a:hover {
   color: #990561;
+}
+header .top p img {
+  margin-right: 13px;
 }
 header .top .bttn {
   margin: 0;
