@@ -9,6 +9,16 @@
     </picture>
 </div>
 
+<div id="mainsearch">
+    <div class="container">
+        <div class="row">
+            <div class="form">
+                [ Tu pojawi się wyszukiwarka z modułu 3d ]
+            </div>
+        </div>
+    </div>
+</div>
+
 <section>
     <div class="container">
         <div class="row">
@@ -50,6 +60,122 @@
                         <img src="https://placehold.co/90x90" alt="">
                         <h3>476</h3>
                         <p>Nowoczesnych <br>apartamentów</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="container-fluid p-0">
+    <div class="row no-gutters justify-content-end position-relative">
+        <div class="col-5 d-flex justify-content-center align-items-center offset-left">
+            <img src="{{ asset('images/homepage-investment.jpg') }}" alt="" width="947" height="674" class="w-100 offset-right">
+        </div>
+        <div class="col-7">
+            <div class="full-right">
+                <div class="right-left-text">
+                    <p class="big">JAK DBAMY O WŁAŚCICIELI</p>
+                    <h2 class="section-title">Najwyższy standard</h2>
+                    <p>Crowne Plaza Resort zaoferuje gamę niepowtarzalnych, wysokiej klasy udogodnień. Właściciele i goście apartamentów będą mogli korzystać m.in.  z luksusowej strefy SPA & wellness, zażywać kąpieli w unikalnym basenie panoramicznym z widokiem na morze czy rozkoszować się wyśmienitą kolacją w eleganckiej restauracji na terenie kompleksu.
+                    <p>&nbsp;</p>
+                    <p>W hotelu znajdzie się również nowoczesna, profesjonalna przestrzeń konferencyjna na 500 osób, która uatrakcyjni ofertę obiektu.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="bg-dark-blue">
+    <div class="container pt-5 pb-5">
+        <div class="row">
+            <div class="col-6">
+                <p class="big">KORZYŚCI W CROWNE PLAZA RESORT</p>
+                <h2 class="section-title">Dlaczego warto?</h2>
+
+                <div class="d-flex flex-wrap justify-content-center">
+                    <div class="features-bg">
+                        <div class="features-content">
+                            <span>
+                                <img src="{{ asset('/images/icons/pink-spa-icon.png') }}" width="90" height="90" alt="">
+                            </span>
+                            <h3>STREFA SPA</h3>
+                        </div>
+                    </div>
+
+                    <div class="features-bg">
+                        <div class="features-content">
+                            <span>
+                                <img src="{{ asset('/images/icons/pink-water-icon.png') }}" width="90" height="90" alt="">
+                            </span>
+                            <h3>STREFA BASENOWA</h3>
+                        </div>
+                    </div>
+
+                    <div class="features-bg">
+                        <div class="features-content">
+                            <span>
+                                <img src="{{ asset('/images/icons/pink-spa-icon.png') }}" width="90" height="90" alt="">
+                            </span>
+                            <h3>VIP SPA</h3>
+                        </div>
+                    </div>
+
+                    <div class="features-bg">
+                        <div class="features-content">
+                            <span>
+                                <img src="{{ asset('/images/icons/pink-restaurant-icon.png') }}" width="90" height="90" alt="">
+                            </span>
+                            <h3>RESTAURACJA</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 offset-absolute d-flex align-items-center">
+                <img src="{{ asset('/images/widok-na-otwarty-basen.jpg') }}" width="960" height="710" alt="">
+            </div>
+
+            <div class="col-6">
+                <div class="d-flex flex-wrap justify-content-center">
+                    <div class="features-bg">
+                        <div class="features-content">
+                            <span>
+                                <img src="{{ asset('/images/icons/pink-drink-icon.png') }}" width="90" height="90" alt="">
+                            </span>
+                            <h3>BAR Z WIDOKIEM <br>NA MORZE</h3>
+                        </div>
+                    </div>
+
+                    <div class="features-bg">
+                        <div class="features-content">
+                            <span>
+                                <img src="{{ asset('/images/icons/pink-recepcja-icon.png') }}" width="90" height="90" alt="">
+                            </span>
+                            <h3>RECEPCJA</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="d-flex flex-wrap justify-content-center">
+                    <div class="features-bg">
+                        <div class="features-content">
+                            <span>
+                                <img src="{{ asset('/images/icons/pink-sea-icon.png') }}" width="90" height="90" alt="">
+                            </span>
+                            <h3>200 M. DO MORZA</h3>
+                        </div>
+                    </div>
+
+                    <div class="features-bg">
+                        <div class="features-content">
+                            <span>
+                                <img src="{{ asset('/images/icons/pink-water-icon.png') }}" width="90" height="90" alt="">
+                            </span>
+                            <h3>BASEN Z WIDOKIEM <br>NA MORZE</h3>
+                        </div>
                     </div>
                 </div>
             </div>

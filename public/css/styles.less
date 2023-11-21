@@ -491,6 +491,80 @@ section {
 
 /* Homesearch
 ================================================== */
+#mainsearch {
+  .form {
+    background: #1c2634;
+    width: 100%;
+    height: 200px;
+    margin-top: -100px;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+  }
+}
+
+.full-right {
+  background: #fcf3ee;
+  padding: 260px 00px 260px 12%
+}
+.offset-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  &:after {
+    content: "";
+    background: #1c2634;
+    top: 50%;
+    bottom: 0;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -1;
+  }
+}
+
+.features-bg {
+  width: 284px;
+  height: 254px;
+  background: url("../images/blue-features-bg.png") no-repeat center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px;
+  .features-content {
+    h3 {
+      font-family: 'Nunito Sans', sans-serif;
+      color: white;
+      text-align: center;
+      margin: 0;
+      font-size: 17px;
+      font-weight: 400;
+    }
+    span {
+      width: 90px;
+      height: 90px;
+      margin: 0 auto 25px;
+      display: block;
+    }
+  }
+}
+
+.offset-absolute {
+  img {
+    position: absolute;
+    width: 50vw;
+    right: 0;
+    padding-left: 30px;
+    max-height: 710px;
+  }
+}
+
 
 /* Gallery
 ================================================== */
