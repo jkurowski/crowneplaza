@@ -24,7 +24,7 @@
                                     <li><a href="{{ route('investor') }}">Inwestor</a></li>
                                     <li><a href="{{ route('architect') }}">O architekcie</a></li>
                                     <li><a href="{{ route('crowneplaza') }}">Crowne Plaza</a></li>
-                                    <li><a href="">Galeria</a></li>
+                                    <li><a href="{{ route('gallery') }}">Galeria</a></li>
                                     <li><a href="{{ route('businessmodel') }}">Model biznesowy</a></li>
                                 </ul>
                             </li>

@@ -788,8 +788,23 @@ section .section-apla .section-title:before {
 ================================================== */
 /* Homesearch
 ================================================== */
-/* Contact
+/* Gallery
 ================================================== */
+#gallery-list .row {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#gallery-list a h2 {
+  color: var(--main-color-pink);
+  margin: 0 0 30px;
+  line-height: 70px;
+}
+#gallery-list a p {
+  color: var(--main-color-blue);
+}
+#gallery-list .list-gallery-content {
+  padding: 0 40px;
+}
 /* qTip
 ================================================== */
 .qtip {
