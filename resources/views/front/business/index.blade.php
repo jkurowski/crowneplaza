@@ -11,7 +11,20 @@
 
 @section('content')
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <p>Inwestorzy decydujący się na zakup apartamentu w Baltic Wave będą mogli zdecydować, czy wolą zmienny, czy stały czynsz z najmu. Możliwość wyboru modelu biznesowego: czynsz zmienny stanowiący udział przysługujący Klientowi w około 50% łącznej sumy przychodów netto z tytułu świadczonych na rzecz Gości usług wynajmu apartamentów lub czynsz stały stanowiący do 6,5% ceny apartamentu z wykończeniem i wyposażeniem w skali roku, w zależności od konkretnego lokalu*. Informacje o ryzykach inwestycji są dostępne w biurach sprzedaży inwestycji. Są to między innymi: ryzyko przyjętego modelu biznesowego, ryzyko stopy zwrotu, ryzyko inflacji, ryzyko wypłacalności dewelopera oraz operatora hotelowego, ryzyko lokalizacji inwestycji, ryzyko niepozyskania najemców, ryzyko utraty wartości wskutek niewłaściwego używania, ryzyko realizacji projektu z opóźnieniem lub w sposób wadliwy, ryzyko związane ze wzrostem kosztów działalności oraz wzrostem kosztu realizacji projektu, ryzyko utraty osób kluczowych, ryzyko kondycji rynku turystycznego, ryzyko braku rachunku powierniczego, ryzyko  kryzysu na rynku nieruchomości, ryzyko nadpodaży hoteli i apartamentów na najem krótkoterminowy, ryzyko wystąpienia innych zdarzeń. Szczegółowe informacje dostępne są w biurze sprzedaży.</p>
+            </div>
+        </div>
+    </div>
+<section>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-8 mb-5">
+                <h2 class="text-center section-title">Niech twój kapitał pracuje na ciebie. <br>Zainwestuj w luksus!</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
             <div class="col-12 col-xl-4">
                 <div class="model-step">
                     <img src="https://hotelbalticwave.pl/files/inline/zainwestuj-w-luksusowy-apartament_5e132a19e1eda.box-1.png" alt="Zainwestuj w luksusowy apartament">
@@ -41,15 +54,6 @@
                         <p>Jedną z ciekawych możliwości jest inwestowanie w nieruchomości objęte usługą zarządzanego wynajmu. W ten sposób możliwe jest zarabianie bez osobistego zaangażowania w kontakt z potencjalnymi najemcami. Odchodzą także działania związane z reklamą danego lokalu.</p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <p>Inwestorzy decydujący się na zakup apartamentu w Baltic Wave będą mogli zdecydować, czy wolą zmienny, czy stały czynsz z najmu. Możliwość wyboru modelu biznesowego: czynsz zmienny stanowiący udział przysługujący Klientowi w około 50% łącznej sumy przychodów netto z tytułu świadczonych na rzecz Gości usług wynajmu apartamentów lub czynsz stały stanowiący do 6,5% ceny apartamentu z wykończeniem i wyposażeniem w skali roku, w zależności od konkretnego lokalu*. Informacje o ryzykach inwestycji są dostępne w biurach sprzedaży inwestycji. Są to między innymi: ryzyko przyjętego modelu biznesowego, ryzyko stopy zwrotu, ryzyko inflacji, ryzyko wypłacalności dewelopera oraz operatora hotelowego, ryzyko lokalizacji inwestycji, ryzyko niepozyskania najemców, ryzyko utraty wartości wskutek niewłaściwego używania, ryzyko realizacji projektu z opóźnieniem lub w sposób wadliwy, ryzyko związane ze wzrostem kosztów działalności oraz wzrostem kosztu realizacji projektu, ryzyko utraty osób kluczowych, ryzyko kondycji rynku turystycznego, ryzyko braku rachunku powierniczego, ryzyko  kryzysu na rynku nieruchomości, ryzyko nadpodaży hoteli i apartamentów na najem krótkoterminowy, ryzyko wystąpienia innych zdarzeń. Szczegółowe informacje dostępne są w biurze sprzedaży.</p>
             </div>
         </div>
     </div>

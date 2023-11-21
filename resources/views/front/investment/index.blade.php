@@ -1,6 +1,6 @@
 @extends('layouts.page', ['body_class' => 'investment no-bottom'])
 
-@section('meta_title', 'Lokalizacja')
+@section('meta_title', 'O inwestycji')
 @section('seo_title', $page->meta_title)
 @section('seo_description', $page->meta_description)
 @section('seo_robots', $page->meta_robots)
@@ -27,6 +27,53 @@
     </div>
 </section>
 
+<section class="pt-0">
+    <div class="oinwestycji-ikonki">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-3 col-lg-4"></div>
+                <div class="col-6 col-lg-4">
+                    <img src="https://hotelbalticwave.pl/files/inline/inwest-1.png" alt="">
+                    <h3>Budynek realizowany w standardzie 5 gwiazdkowym</h3>
+
+                </div>
+                <div class="col-3 col-lg-4"></div>
+
+                <div class="col-6 col-lg-4">
+                    <img src="https://hotelbalticwave.pl/files/inline/inwest-5.png" alt="">
+                    <h3>Bezobsługowa umowa zarządzania apartamentem i oszczędność czasu</h3>
+
+                </div>
+                <div class="col-6 col-lg-4">
+                    <img src="https://hotelbalticwave.pl/files/inline/inwest-7.png" alt="">
+                    <h3>Nowoczesny projekt z wyjątkową infrastrukturą</h3>
+
+                </div>
+                <div class="col-6 col-lg-4">
+                    <img src="https://hotelbalticwave.pl/files/inline/inwest-6.png" alt="">
+                    <h3>Lokalizacja blisko morza i parków, w sercu dzielnicy uzdrowiskowe</h3>
+
+                </div>
+                <div class="col-6 col-lg-4">
+                    <img src="https://hotelbalticwave.pl/files/inline/inwest-4.png" alt="">
+                    <h3>Długie pobyty właścicielskie</h3>
+
+                </div>
+                <div class="col-6 col-lg-4">
+                    <img src="https://hotelbalticwave.pl/files/inline/inwest-3.png" alt="">
+                    <h3>Wykończenie i wyposażenie pod klucz</h3>
+
+                </div>
+                <div class="col-6 col-lg-4">
+                    <img src="https://hotelbalticwave.pl/files/inline/inwest-2.png" alt="">
+                    <h3>Lokal z odrębną księgą wieczystą</h3>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="p-0">
     <div class="container-fluid right-left">
         <div class="row">
@@ -39,6 +86,55 @@
                     <h2 class="section-title">Najwyższy standard</h2>
                     <p>Baltic Wave zaoferuje gamę niepowtarzalnych, wysokiej klasy udogodnień. Właściciele i goście apartamentów będą mogli korzystać m.in. z luksusowej strefy SPA & wellness, zażywać kąpieli w unikalnym basenie panoramicznym z widokiem na morze czy rozkoszować się wyśmienitą kolacją w eleganckiej restauracji na terenie kompleksu lub kawą w naszej kawiarni widokowej. W hotelu znajdzie się również nowoczesna, profesjonalna przestrzeń konferencyjna na 500 osób, która uatrakcyjni ofertę obiektu.</p>
                     <p>&nbsp;</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pt-0">
+    <div class="main-lista container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6 col-xl-4">
+                <h5>Panoramiczny basen infinity edge z widokiem <br>na morze</h5>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4">
+                <h5>VIP Spa &amp; Wellness z opcją rezerwacji przestrzeni tylko dla siebie</h5>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4">
+                <h5>Centrum konferencyjno-biznesowe na co najmniej 500 osób</h5>
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-4">
+                <h5>Baseny zadaszone, <br>w tym solankowe jaccuzi</h5>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4">
+                <h5>Groty solne, sauny, zaplecze do fizjoterapii</h5>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4">
+                <h5>Dwupoziomowy garaż podziemny</h5>
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-4">
+                <h5>Kawiarnia widokowa <br>&amp; bar</h5>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4">
+                <h5>Restauracje, <br>w tym à la carte</h5>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4">
+                <h5>Strefa zabaw <br>dla dzieci</h5>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-dark-blue">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="wybor">
+                    <p class="big text-center">NASZA OFERTA</p>
+                    <h2 class="section-title text-center">Dostępne rodzaje apartamentów</h2>
                 </div>
             </div>
         </div>
