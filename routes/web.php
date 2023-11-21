@@ -33,6 +33,7 @@ Route::group(['prefix' => '{locale?}', 'where' => ['locale' => '(?!admin)*[a-z]{
         Route::get('/o-inwestycji/crowne-plaza', 'CrowneplazaController@index')->name('crowneplaza');
 
         Route::get('/o-inwestycji', 'InvestmentController@index')->name('investment');
+        Route::get('/model-biznesowy', 'BusinessmodelController@index')->name('businessmodel');
 
         Route::get('/kontakt', 'ContactController@index')->name('contact');
         Route::post('/kontakt', 'ContactController@contact')->name('contact.form');

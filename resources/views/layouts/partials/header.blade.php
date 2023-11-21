@@ -25,7 +25,7 @@
                                     <li><a href="{{ route('architect') }}">O architekcie</a></li>
                                     <li><a href="{{ route('crowneplaza') }}">Crowne Plaza</a></li>
                                     <li><a href="">Galeria</a></li>
-                                    <li><a href="">Model biznesowy</a></li>
+                                    <li><a href="{{ route('businessmodel') }}">Model biznesowy</a></li>
                                 </ul>
                             </li>
                             <li><a href="{{ route('location') }}">LOKALIZACJA</a></li>

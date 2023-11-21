@@ -694,6 +694,17 @@ section .section-apla .section-title:before {
   right: 0;
   margin: 0 auto;
 }
+#page .bg-dark-blue .section-title {
+  border-bottom: 1px solid #4f4f4f;
+}
+#page .bg-dark-blue .section-title:before {
+  background: var(--main-color-blue);
+}
+#page .bg-dark-blue h3 {
+  color: white;
+  font-size: 33px;
+  margin: 20px 0;
+}
 #page .pink-list {
   list-style: none;
   padding: 0;
@@ -704,6 +715,10 @@ section .section-apla .section-title:before {
   background: url(../images/pink-list.png) no-repeat left top 10px;
   margin-left: 10px;
 }
+#page p.small {
+  font-size: 12px;
+  line-height: 18px;
+}
 .no-bottom #page {
   padding-bottom: 0;
 }
@@ -712,6 +727,26 @@ section .section-apla .section-title:before {
 }
 /* Gallery
 ================================================== */
+/* Model
+================================================== */
+#page .bg-darkblue img {
+  float: left;
+  margin-right: 20px;
+  width: 60px;
+}
+#page .bg-darkblue h5 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+#page .bg-darkblue p {
+  font-size: 17px;
+  line-height: normal;
+}
+#page .model-box {
+  padding: 30px;
+  border: 1px solid #ececec;
+  height: 100%;
+}
 /* Investment
 ================================================== */
 /* Inwestor
@@ -1012,6 +1047,24 @@ div[class*='col-'].slick-slide {
 }
 .slick-slide.slick-active img:hover {
   border-color: var(--main-color-blue);
+}
+/* Model biznesowy
+================================================== */
+#page .model-step {
+  padding: 0 30px 30px;
+  height: 100%;
+  border: 1px solid #ececec;
+}
+#page .model-step p {
+  font-size: 18px;
+  line-height: 29px;
+}
+#page .model-step h3 {
+  font-size: 25px;
+  color: var(--main-color-pink);
+  line-height: 34px;
+  margin-bottom: 26px;
+  margin-top: 10px;
 }
 /* Footer
 ================================================== */
