@@ -2,6 +2,15 @@
 
 @section('content')
 <div id="slider">
+    <div class="container h-100">
+        <div class="row d-flex justify-content-end h-100 align-items-center">
+            <div class="col-6">
+                <div class="slider-apla">
+                    <h1>Zostań właścicielem luksusowego apartamentu hotelowego</h1>
+                </div>
+            </div>
+        </div>
+    </div>
     <picture>
         <source type="image/webp" srcset="{{ asset('uploads/slider/slider-1.webp') }}">
         <source type="image/jpeg" srcset="{{ asset('uploads/slider/slider-1.jpg') }}">
@@ -42,22 +51,22 @@
             <div class="col-6">
                 <div class="icons-row">
                     <div class="icons-item text-center">
-                        <img src="https://placehold.co/90x90" alt="">
+                        <img src="{{ asset('/images/icons/pink-metraz-icon.png') }}" alt="">
                         <h3>29m<sup>2</sup> - 130m<sup>2</sup></h3>
                         <p>Dostępne powierzchnie <br>apartamentów</p>
                     </div>
                     <div class="icons-item text-center">
-                        <img src="https://placehold.co/90x90" alt="">
-                        <h3>29m<sup>2</sup> - 130m<sup>2</sup></h3>
+                        <img src="{{ asset('/images/icons/pink-hotel-icon.png') }}" alt="">
+                        <h3><img src="{{ asset('/images/icons/stars.png') }}" alt="" class="mb-0"></h3>
                         <p>Wysoki standard <br>wykończenia</p>
                     </div>
                     <div class="icons-item text-center">
-                        <img src="https://placehold.co/90x90" alt="">
+                        <img src="{{ asset('/images/icons/pink-klucze-icon.png') }}" alt="">
                         <h3>Pod klucz</h3>
                         <p>Wykończenie <br>i wyposażenie</p>
                     </div>
                     <div class="icons-item text-center">
-                        <img src="https://placehold.co/90x90" alt="">
+                        <img src="{{ asset('/images/icons/pink-apartamenty-icon.png') }}" alt="">
                         <h3>476</h3>
                         <p>Nowoczesnych <br>apartamentów</p>
                     </div>

@@ -30,6 +30,12 @@
                             </li>
                             <li><a href="{{ route('location') }}">LOKALIZACJA</a></li>
                             <li><a href="{{ route('contact') }}">KONTAKT</a></li>
+                            <li id="lang">
+                                <div>
+                                    <a href="#">PL</a>
+                                    <i class="las la-angle-down"></i>
+                                </div>
+                            </li>
                         </ul>
                     </nav>
                 </div>

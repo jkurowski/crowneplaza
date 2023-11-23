@@ -504,7 +504,7 @@ header nav:hover {
 header nav ul {
   display: flex;
   width: 100%;
-  justify-content: center;
+  justify-content: end;
 }
 header nav ul li {
   padding: 0 50px;
@@ -569,6 +569,18 @@ header.fixed nav {
   right: 0;
   z-index: 40;
 }
+#lang {
+  padding: 0 35px;
+  border-left: 1px solid white;
+}
+#lang div {
+  display: flex;
+  align-items: center;
+}
+#lang div i {
+  color: white;
+  margin-left: 15px;
+}
 @keyframes stickymenu {
   from {
     top: -114px;
@@ -581,6 +593,23 @@ header.fixed nav {
 ================================================== */
 #slider {
   margin-top: 95px;
+  position: relative;
+}
+#slider .container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+#slider h1 {
+  font-size: 58px;
+  width: 740px;
+  margin: 0;
+}
+#slider .slider-apla {
+  border: 6px solid white;
+  padding: 20px 30px 25px;
 }
 /* Homepage
 ================================================== */
