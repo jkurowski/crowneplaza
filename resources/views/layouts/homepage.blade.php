@@ -45,21 +45,7 @@
 
 <script type="text/javascript">
     $(document).ready(function(){
-        $('#gallery .row').slick({
-            infinite: true,
-            slidesToShow: 1,
-            slidesToScroll: 3,
-            centerMode: true,
-            centerPadding: '160px',
-            responsive: [
-                {
-                    breakpoint: 568,
-                    settings: {
-                        centerPadding: '40px',
-                    }
-                }
-            ]
-        })
+
     });
     $(window).load(function() {
         if(window.location.hash) {
