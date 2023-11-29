@@ -22,7 +22,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('/css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('/css/styles.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/styles.min.css?date=12') }}" rel="stylesheet">
 
     @stack('style')
 </head>
