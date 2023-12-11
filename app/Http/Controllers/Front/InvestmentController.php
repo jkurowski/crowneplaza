@@ -12,4 +12,10 @@ class InvestmentController extends Controller
         $page = Page::find(1);
         return view('front.investment.index', compact('page'));
     }
+
+    public function show()
+    {
+        $page = Page::find(1);
+        return view('front.investment.show', compact('page'));
+    }
 }

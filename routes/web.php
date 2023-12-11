@@ -22,7 +22,7 @@ Route::get('routes', function() {
 Route::group(['prefix' => '{locale?}', 'where' => ['locale' => '(?!admin)*[a-z]{2}'],], function() {
     Route::group(['namespace' => 'Front'], function () {
         Route::get('/', 'IndexController@index')->name('index');
-        Route::get('/mieszkania', 'InvestmentController@show')->name('plan');
+        Route::get('/apartamenty', 'InvestmentController@show')->name('plan');
 
         Route::get('/lokalizacja', 'LocationController@index')->name('location');
 

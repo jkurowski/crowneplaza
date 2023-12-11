@@ -17,7 +17,7 @@
                     <nav>
                         <ul class="mb-0 list-unstyled">
                             <li><a href="/">HOME</a></li>
-                            <li><a href="#">APARTAMENTY</a></li>
+                            <li><a href="{{ route('plan') }}">APARTAMENTY</a></li>
                             <li>
                                 <a href="{{ route('investment') }}">O INWESTYCJI</a>
                                 <ul class="submenu mb-0 list-unstyled">
